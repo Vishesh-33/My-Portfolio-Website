@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <style>
+         * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .me {
+            font-size: 20px;
+            font-weight: bolder;
+            font-family: "Playwrite AU QLD", cursive;
+
+        }
+
+        nav ul {
+            display: flex;
+            gap: 17px;
+            align-items: center;
+        }
+
+        nav ul li {
+            list-style-type: none;
+            font-size: 16px;
+            font-family: "Cormorant Garamond", serif;
+            color: white;
+
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            /* background-color:blueviolet; */
+            background-image: linear-gradient(to left, rgba(155, 13, 168, 0.594), rgb(85, 9, 72));
+            color: white;
+            padding: 10px 0;
+        }
+ .d{
+    min-height: 100vh;
+    background-image: url("https://img.freepik.com/free-photo/vivid-blurred-colorful-wallpaper-background_58702-2710.jpg?semt=ais_hybrid&w=740&q=80");
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+}
+
+.d h1{
+    text-align: center;
+    color: white;
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+
+.services{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 300px;
+    background: rgba(255,255,255,0.2);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+}
+
+.card h2{
+    margin-bottom: 15px;
+}
+.back-btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 6px 12px;
+    border: 2px solid white;
+    border-radius: 8px;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.back-btn a:hover{
+    background-color: white;
+    color: rgb(230, 33, 148);
+}
+    </style>
+</head>
+<body>
+      <nav>
+            <div class="back-btn"  >
+        <a href="index.html">←back</a>
+    </div>
+        <div class="me">
+            Services
+        </div>
+        <ul>
+            <li>Vishesh's Portfolio</li>
+        </ul>
+    </nav>
+    
+<section class="d">
+    <h1>My Services</h1>
+
+    <div class="services">
+        <div class="card">
+            <h2>Web Development</h2>
+            <p>Creating responsive and modern websites using HTML, CSS and JavaScript.</p>
+        </div>
+
+        <div class="card">
+            <h2>Frontend Design</h2>
+            <p>Building attractive user interfaces with clean and responsive layouts.</p>
+        </div>
+
+        <div class="card">
+            <h2>Portfolio Websites</h2>
+            <p>Designing personal portfolio websites for students and professionals.</p>
+        </div>
+        <div class="card">
+    <h2>Website Maintenance</h2>
+    <p>Keeping websites updated, fixing bugs, improving performance, and ensuring smooth user experience.</p>
+</div>
+    </div>
+</section>
+    
+</body>
+</html>

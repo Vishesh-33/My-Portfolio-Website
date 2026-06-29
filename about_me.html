@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        *{
+            margin: 0;padding: 0;
+        }
+         nav ul {
+            display: flex;
+            gap: 17px;
+            align-items: center;
+             
+        }
+
+        nav ul li {
+            list-style-type: none;
+            font-size: 16px;
+            font-family: "Cormorant Garamond", serif;
+            color: white;
+              
+
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            /* background-color:blueviolet; */
+            background-image: linear-gradient(to left, rgba(155, 13, 168, 0.594), rgb(85, 9, 72));
+            color: white;
+            padding: 10px 0;
+            position: fixed;
+            width: 100vw;
+             font-family: "Playwrite AU QLD", cursive;
+            
+        }
+        .back-btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 6px 12px;
+    border: 2px solid white;
+    border-radius: 8px;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.back-btn a:hover{
+    background-color: white;
+    color: rgb(230, 33, 148);
+}
+.about{
+    min-height: 100vh;
+    padding: 50px 10%;
+     background-image: url("https://media.istockphoto.com/id/1363446192/vector/pop-art-background-in-retro-comics-book-style-with-halftone-texture-light-baby-purple-color.jpg?s=612x612&w=0&k=20&c=tdEWruRQ3CMwyDkLs568JfVe9wqjqM0PTBwSqdtGb2U=");
+       background-repeat: no-repeat;
+       background-size: cover;
+    }
+
+.about-content{
+    max-width: 800px;
+    margin: auto;
+}
+
+.about h1{
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.about h2{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+.about p{
+    font-size: 18px;
+    line-height: 1.8;
+    color: #555;
+}
+
+.about ul{
+    margin-left: 20px;
+}
+
+.about ul li{
+    margin: 10px 0;
+    font-size: 17px;
+}
+ 
+    </style>
+</head>
+<body>
+    <nav>
+            <div class="back-btn"  >
+        <a href="index.html">←back</a>
+    </div>
+        <div class="me">
+            About Me
+        </div>
+        <ul>
+            <li>Vishesh's Portfolio</li>
+        </ul>
+    </nav>
+    <section class="about">
+    <div class="about-content">
+        <h1>About Me</h1>
+
+        <p>
+            Hello! I'm <strong>Vishesh Kumar</strong>, a passionate Web Development learner
+            and Computer Science student. I enjoy creating modern, responsive,
+            and user-friendly websites using HTML, CSS, and JavaScript.
+        </p>
+
+        <p>
+            I am continuously improving my skills by building projects and
+            learning new technologies. My goal is to become a professional
+            Full Stack Web Developer and contribute to innovative projects.
+        </p>
+
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript (Learning)</li>
+            <li>SQL</li>
+            <li>Git & GitHub</li>
+        </ul>
+
+        <h2>Education</h2>
+        <p>
+            Pursuing Bachelor's degree in Computer Science and actively
+            developing practical skills through projects and online courses.
+        </p>
+    </div>
+</section>
+</body>
+</html>

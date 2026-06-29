@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-image: linear-gradient(to right, rgba(11, 64, 180, 0.594), rgb(110, 186, 236));
+            color: white;
+            padding: 10px 0;
+            position: fixed;
+            width: 100vw;
+            font-family: "Playwrite AU QLD", cursive;
+        }
+
+        nav ul li {
+            color: white;
+            display: flex;
+            align-items: center;
+            font-size: 16px;
+            list-style-type: none;
+        }
+
+        .t {
+            color: white;
+            font-family: "Playwrite AU QLD", cursive;
+        }
+
+        .back-btn a {
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            padding: 6px 12px;
+            border: 2px solid white;
+            border-radius: 8px;
+            transition: 0.3s;
+            text-align: center;
+        }
+
+        .back-btn a:hover {
+            background-color: white;
+            color: rgb(230, 33, 148);
+        }
+        .about{
+            height:150vh;
+            padding:50px 10% ;
+            background-image: url("https://cdn.pixabay.com/photo/2020/05/06/06/18/blue-5136251_1280.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }
+        .about-contant{
+            max-width: 800px;
+            margin:auto;
+        }
+        .about h1 {
+            font-size:45px;
+            margin-top:25px;
+            margin-bottom: 10px;
+        }
+        h2{
+            
+            margin-top:25px;
+            margin-bottom: 10px;
+        }
+       .about p{
+            font-size:18px;
+            line-height: 1.8;
+        }
+        .about ul li{
+               margin: 10px 0;
+               font-size:17px;
+        }
+        .about ul{
+            margin-left:20px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+
+        <div class="back-btn">
+            <a href="index.html">←back</a>
+        </div>
+        <div class="t">Weather App</div>
+        <div>
+            <ul>
+                <li>Vishesh's Portfolio</li>
+            </ul>
+        </div>
+    </nav>
+    <section class="about">
+        <div class="about-contant">
+            <h1>Welcome to Weather App</h1>
+            <p>A Weather App is a useful application that provides real-time weather information for different
+                locations. It helps users check current weather conditions, temperature, humidity, wind speed, and
+                weather forecasts.</p>
+            <div>
+                 <h2>Features</h2><ul> 
+                    <li>Real-time weather updates</li>
+                    <li>Current temperature display</li>
+                    <li>Humidity information</li>
+                    <li>Wind speed details</li>
+                    <li>Daily weather forecast</li>
+                    <li>Search weather by city name</li>
+                </ul>
+            </div>
+            <h2>How It Works</h2>
+            <p>The Weather App collects weather data from online weather services through APIs. When a user enters a
+                city name, the app fetches the latest weather information and displays it in an easy-to-understand
+                format.</p>
+                <h2>Benefits</h2>
+                <ul>
+                    <li>Provides accurate weather information</li>
+                    <li>Helps users plan their daily activities</li>
+                    <li>Easy and user-friendly interface</li>
+                    <li>Quick access to weather forecasts</li>
+                    <li>Accessible from anywhere with an internet connection</li>
+                </ul>
+        </div>
+    </section>
+</body>
+
+</html>
