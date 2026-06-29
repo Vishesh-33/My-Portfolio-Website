@@ -1,3 +1,13 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+img{
+    max-width:100%;
+    height:auto;
+}
 * {
     margin: 0;
     padding: 0;
@@ -134,4 +144,116 @@ footer {
     padding: 18px;
     color: white;
     text-align: center;
+}
+/* Responsive Design */
+
+/* Tablet */
+@media (max-width: 1024px) {
+    .hero {
+        gap: 40px;
+        padding: 100px 30px 50px;
+    }
+
+    .one {
+        font-size: 32px;
+    }
+
+    .two {
+        font-size: 24px;
+    }
+
+    .project {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .project-image img {
+        width: 90%;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+
+    nav {
+        flex-direction: column;
+        gap: 10px;
+        padding: 15px;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    nav ul li {
+        font-size: 16px;
+    }
+
+    .hero {
+        flex-direction: column-reverse;
+        text-align: center;
+        gap: 20px;
+        padding: 120px 20px 40px;
+        height: auto;
+        min-height: 100vh;
+    }
+
+    .hero-right img {
+        width: 220px;
+        height: auto;
+    }
+
+    .one {
+        font-size: 28px;
+    }
+
+    .two {
+        font-size: 20px;
+    }
+
+    .btn {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .project,
+    .reverse {
+        flex-direction: column;
+    }
+
+    .project-image img {
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    .text,
+    .text1 {
+        padding: 10px;
+    }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+
+    .logo {
+        font-size: 18px;
+    }
+
+    .one {
+        font-size: 24px;
+    }
+
+    .two {
+        font-size: 18px;
+    }
+
+    .hero-right img {
+        width: 180px;
+    }
+
+    footer {
+        font-size: 14px;
+    }
 }
